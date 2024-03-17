@@ -40,7 +40,7 @@ const Registration = () => {
                 onChange={(e) => setPassword(e.target.value)} required />
 
                 <div className="flex items-center gap-2 mb-4">
-                    <input type="checkbox" defaultChecked className="checkbox checkbox-accent"
+                    <input type="checkbox" className="checkbox checkbox-accent"
                     onChange={(e) => setIsChecked(e.target.checked)} /> 
                     <p>Do you agree with our term and conditions?</p>
                 </div>
